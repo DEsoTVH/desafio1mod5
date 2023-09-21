@@ -2,6 +2,7 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container'; 
+import Footer from '../components/Footer';
 
 export default function Contact() {
   return (
@@ -21,6 +22,7 @@ export default function Contact() {
           Send
         </Button>
       </Form>
+      <Footer/>
     </Container>
   );
 }
